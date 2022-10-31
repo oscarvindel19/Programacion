@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen1.MainPage">
+    <StackLayout>
+           <Label Text="Registros de Contactos" TextColor="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
+        <Entry x:Name="TxtNombres" Placeholder="Nombres" TextColor="White"  PlaceholderColor="Black"  BackgroundColor="Green"  Keyboard="Text"/>
+        <Entry x:Name="TxtApellido" Placeholder="Apellidos" TextColor="white" PlaceholderColor="Black" BackgroundColor="Green"  Keyboard="Text"/>
+        <Entry x:Name="TxtEdad" Placeholder="Edad" TextColor="white" PlaceholderColor="Black" BackgroundColor="Green"  Keyboard="Numeric"/>
+        <Entry x:Name="TxtPais" Placeholder="Pais"  TextColor="white" PlaceholderColor="Black" BackgroundColor="Green"  Keyboard="Text"/>
+        <Entry x:Name="Txtnota" Placeholder="Nota" TextColor="white" PlaceholderColor="Black" BackgroundColor="Green" Keyboard="Text"/>
+        <Entry x:Name="Txtlatitud" Placeholder="Latitud" TextColor="white" PlaceholderColor="Black" BackgroundColor="Green"  Keyboard="Numeric"/>
+        <Entry x:Name="Txtlongitud" Placeholder="Longitud " TextColor="White"  PlaceholderColor="Black" BackgroundColor="Green" Keyboard="Numeric"/>
+        <Button x:Name="btnInsertar" Text="Insertar Contactos" TextColor="Black" Background="green"  Clicked="Insertar_Clicked"/>
+
+
+
+
+    </StackLayout >
+    
+    
+    
+    
+</ContentPage>
